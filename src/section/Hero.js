@@ -8,7 +8,7 @@ function Hero() {
         <div className="rounded-full w-64 h-64 overflow-visible relative bg-green-600/75">
           <img
             alt=""
-            src="/YOVI.png"
+            src={`${process.env.PUBLIC_URL}/YOVI.png`}
             className="w-80 h-80 object-cover absolute bottom-0 rounded-full"
           />
         </div>

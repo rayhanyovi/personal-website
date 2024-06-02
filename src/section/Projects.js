@@ -17,7 +17,7 @@ function Projects() {
         >
           <img
             alt="Project Images"
-            src="/Supermarket.png"
+            src={`${process.env.PUBLIC_URL}/Supermarket.png`}
             className="h-60 w-full object-fit bg-gray-400 overflow-hidden"
           />
           <div className="flex flex-col p-4 gap-2">
@@ -38,7 +38,7 @@ function Projects() {
         >
           <img
             alt="Project Images"
-            src="/kalkulator.jpg"
+            src={`${process.env.PUBLIC_URL}/kalkulator.jpg`}
             className="h-60 object-cover bg-gray-400 overflow-hidden"
           />
           <div className="flex flex-col p-4 gap-2">
@@ -59,7 +59,7 @@ function Projects() {
         >
           <img
             alt="Project Images"
-            src="/bookshelf.png"
+            src={`${process.env.PUBLIC_URL}/bookshelf.png`}
             className="h-60 object-cover bg-gray-400 overflow-hidden"
           />
           <div className="flex flex-col p-4 gap-2">
@@ -78,7 +78,7 @@ function Projects() {
         >
           <img
             alt="Project Images"
-            src="/Chatbot.png"
+            src={`${process.env.PUBLIC_URL}/Chatbot.png`}
             className="h-60 object-cover bg-gray-400 overflow-hidden"
           />
           <div className="flex flex-col p-4 gap-2">
